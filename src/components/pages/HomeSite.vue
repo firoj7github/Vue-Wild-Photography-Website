@@ -2,19 +2,26 @@
 <NavbarSite></NavbarSite>
   <SliderSite></SliderSite>
   <BlogSite></BlogSite>
+  <TagSite></TagSite>
+  <TitleSite></TitleSite>
 </template>
 
 <script>
 import SliderSite from '../SliderSite.vue'
 import NavbarSite from '../NavbarSite.vue';
 import BlogSite from '../BlogSite.vue';
+import TagSite from '../TagSite.vue';
+import TitleSite from '../TitleSite.vue';
+
 
 export default {
   name: 'HomeSite',
   components: {
     SliderSite,
     NavbarSite,
-    BlogSite
+    BlogSite,
+    TagSite,
+    TitleSite
 }
 }
 </script>

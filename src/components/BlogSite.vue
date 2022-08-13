@@ -45,9 +45,10 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Slabo+27px&display=swap');
 .blog-all{
     width: 100%;
-    height: 850px;
+    height: 930px;
     background-color: rgb(5, 5, 5);
     position: relative;
 }
@@ -66,7 +67,8 @@ export default {
     padding-top: 100px;
     margin-bottom: 70px;
     color: white;
-     font-family: 'Slabo 27px', serif;
+     font-family: 'Raleway', sans-serif;
+
 }
 .blog-1 h1{
     font-size: 50px;
