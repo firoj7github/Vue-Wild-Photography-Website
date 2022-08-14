@@ -4,6 +4,7 @@
   <BlogSite></BlogSite>
   <TagSite></TagSite>
   <TitleSite></TitleSite>
+  <SideSite></SideSite>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import NavbarSite from '../NavbarSite.vue';
 import BlogSite from '../BlogSite.vue';
 import TagSite from '../TagSite.vue';
 import TitleSite from '../TitleSite.vue';
+import SideSite from '../SideSite.vue';
 
 
 export default {
@@ -21,7 +23,8 @@ export default {
     NavbarSite,
     BlogSite,
     TagSite,
-    TitleSite
+    TitleSite,
+    SideSite
 }
 }
 </script>

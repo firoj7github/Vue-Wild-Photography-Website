@@ -18,22 +18,22 @@ export default {
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Slabo+27px&display=swap');
+<style scoped>
+
 .tag-all{
     width: 100%;
-    height: 750px;
-    background: url(../assets/image/1.jpg.jpg);
+    height: 850px;
+    background: url(../assets/image/100.jpg.jpg);
     background-size: cover;
 }
 .tag-1 h1{
-    padding-top: 580px;
-    color: white;
+    padding-top: 790px;
+ color: rgb(118, 184, 184);
     width: 650px;
-    margin-left: 400px;
+    margin-left: 360px;
    
-font-family: 'Slabo 27px', serif;
+
 font-size: 65px;
-font-weight: 500;
+
 }
 </style>
