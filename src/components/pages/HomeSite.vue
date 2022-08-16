@@ -1,30 +1,33 @@
 <template>
-<NavbarSite></NavbarSite>
+
   <SliderSite></SliderSite>
   <BlogSite></BlogSite>
   <TagSite></TagSite>
   <TitleSite></TitleSite>
   <SideSite></SideSite>
+
 </template>
 
 <script>
 import SliderSite from '../SliderSite.vue'
-import NavbarSite from '../NavbarSite.vue';
+
 import BlogSite from '../BlogSite.vue';
 import TagSite from '../TagSite.vue';
 import TitleSite from '../TitleSite.vue';
 import SideSite from '../SideSite.vue';
 
 
+
 export default {
   name: 'HomeSite',
   components: {
     SliderSite,
-    NavbarSite,
+   
     BlogSite,
     TagSite,
     TitleSite,
-    SideSite
+    SideSite,
+  
 }
 }
 </script>
@@ -36,6 +39,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>

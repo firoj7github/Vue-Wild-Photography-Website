@@ -1,15 +1,19 @@
 <template>
-  <HomeSite></HomeSite>
+<NavbarSite></NavbarSite>
+  <router-view></router-view>
+    <FooterSite></FooterSite>
 </template>
 
 <script>
-import HomeSite from './components/pages/HomeSite.vue';
 
+import NavbarSite from '../src/components/NavbarSite.vue'
+import FooterSite from '../src/components/FooterSite.vue'
 
 export default {
   name: 'App',
   components: {
-    HomeSite
+   NavbarSite,
+   FooterSite,
 }
 }
 </script>
