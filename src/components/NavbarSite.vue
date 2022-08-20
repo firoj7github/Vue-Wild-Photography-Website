@@ -9,7 +9,8 @@
       
         <li><router-link class="first" to="/home">Home</router-link></li>
         <li> <router-link class="first" to="/blog">Blog</router-link></li>
-        <li> <router-link class="first" to="/contact">Contact</router-link></li>
+        <li> <router-link class="first" to="/login">Login</router-link></li>
+        <li> <router-link class="first" to="/signup">Signup</router-link></li>
    
         
     </div>
@@ -58,7 +59,7 @@ export default {
   display: flex;
   flex-direction: row;
   color: white;
-  margin-left: 350px;
+  margin-left: 310px;
   text-decoration: none;
  
   
