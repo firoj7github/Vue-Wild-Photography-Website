@@ -3,11 +3,16 @@
 <div class="nav">
   <div class="nav-all">
     <div class="nav-1">
-     
+   
+    <img src="../assets/image/700.png"  alt="">
+    
+    
+
+ 
     </div>
     <div class="nav-2">
       
-        <li><router-link class="first" to="/home">Home</router-link></li>
+        <li><router-link class="first" to="/">Home</router-link></li>
         <li> <router-link class="first" to="/blog">Blog</router-link></li>
         <li> <router-link class="first" to="/login">Login</router-link></li>
         <li> <router-link class="first" to="/signup">Signup</router-link></li>
@@ -46,7 +51,8 @@ export default {
   
   color: white;
   margin-top: 7px;
-  margin-left: 0px;
+  margin-left: -530px;
+ 
  
   
   

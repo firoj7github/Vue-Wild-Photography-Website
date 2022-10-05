@@ -1,12 +1,15 @@
 <template>
 <NavbarSite></NavbarSite>
+
   <router-view></router-view>
+  
     <FooterSite></FooterSite>
 </template>
 
 <script>
 
 import NavbarSite from '../src/components/NavbarSite.vue'
+
 import FooterSite from '../src/components/FooterSite.vue'
 
 export default {
@@ -14,6 +17,7 @@ export default {
   components: {
    NavbarSite,
    FooterSite,
+ 
 }
 }
 </script>
