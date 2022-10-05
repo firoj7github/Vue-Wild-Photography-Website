@@ -25,7 +25,7 @@ const firebaseConfig = {
  firebase.initializeApp(firebaseConfig);
 
 createApp(App).use(router).mount('#app')
-// window.addEventListener('contextmenu', function (e) {
+window.addEventListener('contextmenu', function (e) {
     
-//     e.preventDefault();
-//    }, false);
+    e.preventDefault();
+   }, false);
