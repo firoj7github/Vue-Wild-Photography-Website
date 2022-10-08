@@ -7,6 +7,8 @@ import  '../node_modules/popper.js'
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import router from './router'
 import firebase from "firebase"
+import DisableDevtool from 'disable-devtool'
+DisableDevtool();
 
 
 

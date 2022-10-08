@@ -1,4 +1,4 @@
-Live Link: https://cerulean-maamoul-4c2d00.netlify.app
+Live Link: https://spectacular-tarsier-4db6e0.netlify.app
 Code Link : https://github.com/firoj7github/Vue-Wild-Photography-Website
 
 
